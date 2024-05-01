@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.techelevator</groupId>
-    <artifactId>final-capstone-starter</artifactId>
-    <version>1.0</version>
+    <artifactId>virtual-vibes</artifactId>
+    <version>1.0.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
