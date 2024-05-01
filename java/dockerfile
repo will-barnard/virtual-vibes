@@ -1,0 +1,4 @@
+FROM openjdk:latest
+ADD virtual-vibes-1.0.1.jar app.jar
+
+ENTRYPOINT ["java", "-jar", "/app.jar"]

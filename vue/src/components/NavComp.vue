@@ -32,7 +32,7 @@
         
             <Transition name="fade">
             <div v-show="isHamburger" class="nav-footer" v-if="this.$store.state.token != ''">
-                <img v-on:click="goProfile()" src="src/img/profile-icon.png" />
+                <img v-on:click="goProfile()" src="" />
                 <h3 id="hello-msg" >hello, {{ this.$store.state.user.username }}!</h3>
             </div>
         </Transition>
