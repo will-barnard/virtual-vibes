@@ -32,7 +32,7 @@
         
             <Transition name="fade">
             <div v-show="isHamburger" class="nav-footer" v-if="this.$store.state.token != ''">
-                <img v-on:click="goProfile()" src="" />
+                <img v-on:click="goProfile()" src="/img/profile-icon.png" />
                 <h3 id="hello-msg" >hello, {{ this.$store.state.user.username }}!</h3>
             </div>
         </Transition>
@@ -52,7 +52,7 @@ import ModeratorService from '../services/ModeratorService'
 export default {
     data() {
         return {
-            isHamburger: true
+            isHamburger: false
         }
     },
     methods: {

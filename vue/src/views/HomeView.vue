@@ -15,7 +15,7 @@
 
       <div class="popularPosts">
         <h2>Popular Posts</h2>
-        <p v-if="!arePopularPosts">There are no popular posts for today! D:</p>
+        <p v-if="!arePopularPosts">There are no popular posts for today</p>
         <div v-if="arePopularPosts">
           <div v-for="post in posts" :key="post.postId">
             <PostListItem class="box" :post="post" v-on:click="clickPost(post)" />
